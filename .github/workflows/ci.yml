@@ -48,7 +48,7 @@ jobs:
       # Publica relatórios e artefatos mesmo em caso de falha
       - name: Publicar relatórios de cobertura e testes
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: coverage-and-test-reports-${{ matrix.os }}
           path: |
