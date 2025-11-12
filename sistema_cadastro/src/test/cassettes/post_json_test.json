@@ -1,0 +1,51 @@
+[
+  {
+    "recordedAt": 1762904128,
+    "request": {
+      "body": "{\"name\":\"Teste\",\"ok\":true}",
+      "method": "POST",
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "uri": "https://httpbin.org/post"
+    },
+    "response": {
+      "body": "{  \"args\": {},   \"data\": \"\",   \"files\": {},   \"form\": {},   \"headers\": {    \"Accept\": \"*/*\",     \"Content-Type\": \"application/json\",     \"Host\": \"httpbin.org\",     \"User-Agent\": \"Java/24.0.2\",     \"X-Amzn-Trace-Id\": \"Root\u003d1-6913c841-7df97af75b674dc87454c6b7\"  },   \"json\": null,   \"origin\": \"189.29.145.2\",   \"url\": \"https://httpbin.org/post\"}",
+      "httpVersion": null,
+      "headers": {
+        "null": [
+          "HTTP/1.1 200 OK"
+        ],
+        "Server": [
+          "gunicorn/19.9.0"
+        ],
+        "Access-Control-Allow-Origin": [
+          "*"
+        ],
+        "Access-Control-Allow-Credentials": [
+          "true"
+        ],
+        "Connection": [
+          "keep-alive"
+        ],
+        "Content-Length": [
+          "359"
+        ],
+        "Date": [
+          "Tue, 11 Nov 2025 23:35:29 GMT"
+        ],
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "status": {
+        "code": 200,
+        "message": "OK"
+      },
+      "uri": "https://httpbin.org/post"
+    },
+    "duration": 871
+  }
+]

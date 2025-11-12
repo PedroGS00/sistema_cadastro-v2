@@ -1,0 +1,55 @@
+# Arquivos e pastas que não precisam estar no repositório
+
+# IDEs / Editores
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Java / Maven
+**/target/
+**/build/
+**/out/
+*.class
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Gradle (se houver)
+.gradle/
+build/
+
+# Logs e relatórios de testes
+*.log
+logs/
+**/surefire-reports/
+
+# Cobertura
+**/jacoco.exec
+
+# Arquivos de sistema/OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Variáveis de ambiente (sensíveis)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Node (caso exista frontend)
+node_modules/
+
+# Docker (overrides locais)
+docker-compose.override.yml

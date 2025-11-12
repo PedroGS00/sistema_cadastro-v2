@@ -1,0 +1,66 @@
+[
+  {
+    "recordedAt": 1762904125,
+    "request": {
+      "body": "",
+      "method": "GET",
+      "headers": {},
+      "uri": "https://viacep.com.br/ws/01001000/json"
+    },
+    "response": {
+      "body": "{  \"cep\": \"01001-000\",  \"logradouro\": \"Praça da Sé\",  \"complemento\": \"lado ímpar\",  \"unidade\": \"\",  \"bairro\": \"Sé\",  \"localidade\": \"São Paulo\",  \"uf\": \"SP\",  \"estado\": \"São Paulo\",  \"regiao\": \"Sudeste\",  \"ibge\": \"3550308\",  \"gia\": \"1004\",  \"ddd\": \"11\",  \"siafi\": \"7107\"}",
+      "httpVersion": null,
+      "headers": {
+        "null": [
+          "HTTP/1.1 200 OK"
+        ],
+        "Transfer-Encoding": [
+          "chunked"
+        ],
+        "Server": [
+          "nginx/1.22.0"
+        ],
+        "Access-Control-Allow-Origin": [
+          "*"
+        ],
+        "Access-Control-Allow-Methods": [
+          "GET"
+        ],
+        "Connection": [
+          "keep-alive"
+        ],
+        "Pragma": [
+          "public"
+        ],
+        "Date": [
+          "Tue, 11 Nov 2025 23:35:26 GMT"
+        ],
+        "Access-Control-Allow-Headers": [
+          "Content-Type, X-Request-With, X-Requested-By"
+        ],
+        "Cache-Control": [
+          "max-age\u003d3600",
+          "public"
+        ],
+        "Access-Control-Allow-Credentials": [
+          "true"
+        ],
+        "Expires": [
+          "Wed, 12 Nov 2025 00:35:26 GMT"
+        ],
+        "Access-Control-Max-Age": [
+          "86400"
+        ],
+        "Content-Type": [
+          "application/json; charset\u003dutf-8"
+        ]
+      },
+      "status": {
+        "code": 200,
+        "message": "OK"
+      },
+      "uri": "https://viacep.com.br/ws/01001000/json"
+    },
+    "duration": 642
+  }
+]

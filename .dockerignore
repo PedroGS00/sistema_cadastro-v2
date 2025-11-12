@@ -1,0 +1,13 @@
+# Ignorar arquivos/pastas não necessários no contexto de build
+.git/
+.github/
+.vscode/
+.trae/
+node_modules/
+target/
+dist/
+build/
+.DS_Store
+*.log
+*.tmp
+README.md
