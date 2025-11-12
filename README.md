@@ -50,7 +50,7 @@ git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 2) Entrar no diretório do projeto
 
 ```bash
-cd "c:\Users\Usuario\Documentos\Lições\ADO'S\Quarto Semestre\Teste de Software\sistema_cadastro"
+cd "c:..."
 ```
 
 3) Verificar instalação do Maven
@@ -220,21 +220,9 @@ Executar uma suíte/uma classe específica:
 mvn -Dtest=NomeDaClasseDeTeste test
 ```
 
-Cobertura de testes (JaCoCo):
-- Após `mvn test`, os relatórios costumam estar em `sistema_cadastro\target\site\jacoco\index.html`
-- Artefato de execução: `sistema_cadastro\target\jacoco.exec`
-
-Abrir o relatório no Windows:
-
-```bash
-start sistema_cadastro\target\site\jacoco\index.html
-```
-
 Meta de cobertura esperada:
 - Linhas: ≥ 80%
 - Ramos: ≥ 70%
-(ajuste conforme política do time)
-
 ---
 
 ## 6. Deploy
