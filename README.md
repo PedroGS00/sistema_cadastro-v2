@@ -11,7 +11,6 @@ Nota: este repositório substitui o anterior hospedado em `https://github.com/Pe
 - Nome: Sistema de Cadastro
 - Descrição:
 API RESTful para gerenciamento de usuários e produtos, desenvolvida com foco em práticas modernas de desenvolvimento e testes.
-
 O projeto utiliza **Java 21**, **Spring Boot 3** e **PostgreSQL** para fornecer operações CRUD completas, garantindo robustez e manutenibilidade.
 ---
 
@@ -246,3 +245,18 @@ docker-compose --env-file .env.prod up -d
 Variáveis de ambiente sensíveis devem estar apenas em `.env.prod` (não versionado, quando aplicável). Ajuste volumes, limites de memória/CPU e política de reinício no `docker-compose.yml` conforme sua infraestrutura.
 
 ---
+
+## 7. Diagramas
+
+- Diagrama de classe em UML
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/a9d8d451-0cd1-4278-b289-415e9ce77172" />
+
+- Diagrama de caso de uso em UML
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/e59b97a8-42fc-49db-bfc7-5587f7d6f2a9" />
+
+- Diagrama IDEF0
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/419ebf02-f6a8-4f2a-9e55-89e0d9c99a19" />
+
+  
+
+
